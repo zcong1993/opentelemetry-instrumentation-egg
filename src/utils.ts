@@ -43,12 +43,13 @@ export const getMiddlewareMetadata = (
       name: `router - ${layerPath}`,
     }
   } else {
+    const layerName = (layer as any)._name ?? layer.name ?? 'middleware'
     return {
       attributes: {
-        [AttributeNames.KOA_NAME]: layer.name ?? 'middleware',
+        [AttributeNames.KOA_NAME]: layerName,
         [AttributeNames.KOA_TYPE]: KoaLayerType.MIDDLEWARE,
       },
-      name: `middleware - ${layer.name}`,
+      name: `middleware - ${layerName}`,
     }
   }
 }
