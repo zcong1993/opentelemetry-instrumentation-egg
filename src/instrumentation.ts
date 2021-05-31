@@ -75,11 +75,11 @@ export class EggInstrumentation extends InstrumentationBase<typeof eggCore> {
           return moduleExports
         }
         api.diag.debug('Patching Egg')
-        const routerProto = moduleExports.EggCore.prototype
-        if (isWrapped(routerProto.use)) {
-          this._unwrap(routerProto, 'use')
+        const eggCoreProto = moduleExports.EggCore.prototype
+        if (isWrapped(eggCoreProto.use)) {
+          this._unwrap(eggCoreProto, 'use')
         }
-        this._wrap(routerProto, 'use', this._getKoaUsePatch.bind(this))
+        this._wrap(eggCoreProto, 'use', this._getKoaUsePatch.bind(this))
         return moduleExports
       },
       (moduleExports) => {

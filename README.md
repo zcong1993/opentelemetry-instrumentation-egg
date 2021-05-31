@@ -51,10 +51,10 @@ registerInstrumentations({
 
 Egg instrumentation has few options available to choose from. You can set the following:
 
-| Options            | Type                 | Example               | Description                      |
-| ------------------ | -------------------- | --------------------- | -------------------------------- |
-| `ignoreLayers`     | `IgnoreMatcher[]`    | `[/^\/_internal\//]`  | Ignore layers that by match.     |
-| `ignoreLayersType` | `KoaLayerType[]` | `['request_handler']` | Ignore layers of specified type. |
+| Options            | Type              | Example               | Description                      |
+| ------------------ | ----------------- | --------------------- | -------------------------------- |
+| `ignoreLayers`     | `IgnoreMatcher[]` | `[/^\/_internal\//]`  | Ignore layers that by match.     |
+| `ignoreLayersType` | `KoaLayerType[]`  | `['request_handler']` | Ignore layers of specified type. |
 
 `ignoreLayers` accepts an array of elements of types:
 
