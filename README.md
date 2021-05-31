@@ -54,7 +54,7 @@ Egg instrumentation has few options available to choose from. You can set the fo
 | Options            | Type                 | Example               | Description                      |
 | ------------------ | -------------------- | --------------------- | -------------------------------- |
 | `ignoreLayers`     | `IgnoreMatcher[]`    | `[/^\/_internal\//]`  | Ignore layers that by match.     |
-| `ignoreLayersType` | `ExpressLayerType[]` | `['request_handler']` | Ignore layers of specified type. |
+| `ignoreLayersType` | `KoaLayerType[]` | `['request_handler']` | Ignore layers of specified type. |
 
 `ignoreLayers` accepts an array of elements of types:
 
