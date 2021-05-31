@@ -17,7 +17,8 @@
     "jest:cov": "jest --coverage --detectOpenHandles --forceExit",
     "prepublishOnly": "npm run build",
     "prepare": "husky install",
-    "lint-staged": "lint-staged"
+    "lint-staged": "lint-staged",
+    "version": "node ./scripts/update-version.js && git add ."
   },
   "types": "./dist/index.d.ts",
   "author": "zcong1993",
