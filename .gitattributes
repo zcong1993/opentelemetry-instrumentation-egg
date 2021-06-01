@@ -1,3 +1,4 @@
 * text=auto
 .eslintrc.js linguist-vendored
 ship.config.js linguist-vendored
+scripts/* linguist-vendored
