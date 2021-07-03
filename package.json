@@ -69,5 +69,10 @@
       "yarn format",
       "git add ."
     ]
+  },
+  "release": {
+    "branches": [
+      "release"
+    ]
   }
 }
