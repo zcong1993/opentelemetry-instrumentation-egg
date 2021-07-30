@@ -1,7 +1,7 @@
 import { NodeTracerProvider } from '@opentelemetry/node'
 import { diag, DiagConsoleLogger, DiagLogLevel } from '@opentelemetry/api'
 import { Resource } from '@opentelemetry/resources'
-import { ResourceAttributes } from '@opentelemetry/semantic-conventions'
+import { SemanticResourceAttributes } from '@opentelemetry/semantic-conventions'
 
 import {
   SimpleSpanProcessor,
@@ -19,7 +19,7 @@ const setup = () => {
 
   const provider = new NodeTracerProvider({
     resource: new Resource({
-      [ResourceAttributes.SERVICE_NAME]: serviceName,
+      [SemanticResourceAttributes.SERVICE_NAME]: serviceName,
     }),
   })
 
