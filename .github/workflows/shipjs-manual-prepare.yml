@@ -4,7 +4,8 @@ on:
     inputs:
       version:
         description: The semver-compliant version to tag the release with, e.g. 1.2.3, 1.0.0-rc.1
-        required: true
+        required: false
+        default: '*'
 
 jobs:
   manual_prepare:
