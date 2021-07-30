@@ -1,6 +1,6 @@
 # opentelemetry-instrumentation-egg
 
-[![NPM version](https://img.shields.io/npm/v/opentelemetry-instrumentation-egg.svg?style=flat)](https://npmjs.com/package/opentelemetry-instrumentation-egg) [![NPM downloads](https://img.shields.io/npm/dm/opentelemetry-instrumentation-egg.svg?style=flat)](https://npmjs.com/package/opentelemetry-instrumentation-egg) [![CI](https://github.com/zcong1993/opentelemetry-instrumentation-egg/actions/workflows/release.yml/badge.svg)](https://github.com/zcong1993/opentelemetry-instrumentation-egg/actions/workflows/release.yml)
+[![NPM version](https://img.shields.io/npm/v/opentelemetry-instrumentation-egg.svg?style=flat)](https://npmjs.com/package/opentelemetry-instrumentation-egg) [![NPM downloads](https://img.shields.io/npm/dm/opentelemetry-instrumentation-egg.svg?style=flat)](https://npmjs.com/package/opentelemetry-instrumentation-egg) [![JS Test](https://github.com/zcong1993/opentelemetry-instrumentation-egg/actions/workflows/js-test.yml/badge.svg)](https://github.com/zcong1993/opentelemetry-instrumentation-egg/actions/workflows/js-test.yml)
 
 This module provides automatic instrumentation for [`Egg`](https://github.com/eggjs/egg).
 
