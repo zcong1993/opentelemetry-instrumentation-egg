@@ -18,7 +18,9 @@
     "prepublishOnly": "npm run build",
     "prepare": "husky install",
     "lint-staged": "lint-staged",
-    "version": "node ./scripts/update-version.js && git add ."
+    "version": "node ./scripts/update-version.js && git add .",
+    "release": "node ./scripts/release.js",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s --commit-path ."
   },
   "types": "./dist/index.d.ts",
   "author": "zcong1993",
@@ -35,14 +37,20 @@
     "@types/node": "^16.3.2",
     "@typescript-eslint/eslint-plugin": "^4.28.3",
     "@typescript-eslint/parser": "^4.28.3",
+    "chalk": "^4.1.2",
+    "conventional-changelog-cli": "^2.1.1",
     "egg-core": "^4.20.0",
     "eslint": "^7.30.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.23.4",
+    "execa": "^5.1.1",
     "husky": "^7.0.1",
     "jest": "^27.0.6",
     "lint-staged": "^11.0.1",
+    "minimist": "^1.2.5",
     "prettier": "^2.3.2",
+    "prompts": "^2.4.1",
+    "semver": "^7.3.5",
     "ts-jest": "^27.0.3",
     "typescript": "^4.3.5"
   },
@@ -55,25 +63,10 @@
     "@types/koa__router": "8.0.7"
   },
   "jest": {
-    "testEnvironment": "node",
-    "transform": {
-      "^.+\\.tsx?$": "ts-jest"
-    },
-    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
-    "moduleFileExtensions": [
-      "ts",
-      "tsx",
-      "js",
-      "jsx",
-      "json",
-      "node"
-    ]
+    "preset": "ts-jest"
   },
   "lint-staged": {
-    "*.{js,json,ts}": [
-      "yarn format",
-      "git add ."
-    ]
+    "*.{js,json,ts}": "prettier --write"
   },
   "release": {
     "branches": [
