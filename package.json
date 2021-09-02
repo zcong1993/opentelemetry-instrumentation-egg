@@ -1,6 +1,6 @@
 {
   "name": "opentelemetry-instrumentation-egg",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "description": "OpenTelemetry Egg automatic instrumentation package.",
   "main": "./dist/index.js",
   "files": [
