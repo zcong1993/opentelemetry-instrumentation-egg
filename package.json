@@ -60,7 +60,7 @@
     "@opentelemetry/instrumentation": "^0.24.0",
     "@opentelemetry/semantic-conventions": "^0.24.0",
     "@types/koa": "2.13.4",
-    "@types/koa__router": "8.0.7"
+    "@types/koa__router": "8.0.8"
   },
   "jest": {
     "preset": "ts-jest"
