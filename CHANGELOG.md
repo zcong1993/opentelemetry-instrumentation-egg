@@ -1,15 +1,10 @@
 ## [0.3.3](https://github.com/zcong1993/opentelemetry-instrumentation-egg/compare/v0.3.2...v0.3.3) (2021-09-02)
 
-
-
 ## [0.3.2](https://github.com/zcong1993/opentelemetry-instrumentation-egg/compare/v0.3.1...v0.3.2) (2021-09-02)
-
 
 ### Bug Fixes
 
-* require version from package.json ([3e466aa](https://github.com/zcong1993/opentelemetry-instrumentation-egg/commit/3e466aa2119411af94e96244bb40b8691f43368a))
-
-
+- require version from package.json ([3e466aa](https://github.com/zcong1993/opentelemetry-instrumentation-egg/commit/3e466aa2119411af94e96244bb40b8691f43368a))
 
 ## [0.3.1](https://github.com/zcong1993/opentelemetry-instrumentation-egg/compare/v0.3.0...v0.3.1) (2021-07-30)
 
