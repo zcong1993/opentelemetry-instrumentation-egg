@@ -12,7 +12,7 @@ specifiers:
   '@opentelemetry/semantic-conventions': ^1.0.0
   '@types/jest': ^27.0.2
   '@types/koa': 2.13.4
-  '@types/koa__router': 8.0.9
+  '@types/koa__router': 8.0.10
   '@types/node': ^16.11.1
   '@typescript-eslint/eslint-plugin': ^5.1.0
   '@typescript-eslint/parser': ^5.1.0
@@ -35,7 +35,7 @@ dependencies:
   '@opentelemetry/instrumentation': 0.27.0_@opentelemetry+api@1.0.3
   '@opentelemetry/semantic-conventions': 1.0.0
   '@types/koa': 2.13.4
-  '@types/koa__router': 8.0.9
+  '@types/koa__router': 8.0.10
 
 devDependencies:
   '@opentelemetry/instrumentation-http': 0.27.0_@opentelemetry+api@1.0.3
@@ -1060,8 +1060,8 @@ packages:
       '@types/koa-compose': 3.2.5
       '@types/node': 16.11.1
 
-  /@types/koa__router/8.0.9:
-    resolution: {integrity: sha512-ToYa6yCySkTYBmPcFOqkX1WUfejI44Na7FiCDv9Ccu7/Psf5lLFcYNSvYehyQQXhSJUSJw2ci2kdLz1vGVg1eQ==}
+  /@types/koa__router/8.0.10:
+    resolution: {integrity: sha512-drOKcq4CRwxMAnenf0nC7EirmhDsGwAcVFrYu1UexnDGTO+eOxkICUxgQ7azapQglxp15iLiFFumjV7Mt6Bsjg==}
     dependencies:
       '@types/koa': 2.13.4
     dev: false
