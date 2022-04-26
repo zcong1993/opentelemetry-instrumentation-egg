@@ -26,9 +26,9 @@
     "node": ">=12.0.0"
   },
   "devDependencies": {
-    "@opentelemetry/instrumentation-http": "^0.27.0",
+    "@opentelemetry/instrumentation-http": "^0.28.0",
     "@opentelemetry/resources": "^1.0.0",
-    "@opentelemetry/sdk-node": "^0.27.0",
+    "@opentelemetry/sdk-node": "^0.28.0",
     "@opentelemetry/sdk-trace-base": "^1.0.0",
     "@opentelemetry/sdk-trace-node": "^1.0.0",
     "@types/jest": "^27.0.2",
@@ -51,7 +51,7 @@
   "dependencies": {
     "@opentelemetry/api": "^1.0.3",
     "@opentelemetry/core": "^1.0.0",
-    "@opentelemetry/instrumentation": "^0.27.0",
+    "@opentelemetry/instrumentation": "^0.28.0",
     "@opentelemetry/semantic-conventions": "^1.0.0",
     "@types/koa": "2.13.4",
     "@types/koa__router": "8.0.11"
