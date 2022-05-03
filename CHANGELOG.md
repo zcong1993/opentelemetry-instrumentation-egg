@@ -1,3 +1,13 @@
+## [0.3.5](https://github.com/zcong1993/opentelemetry-instrumentation-egg/compare/v0.3.4...v0.3.5) (2022-05-03)
+
+### Bug Fixes
+
+- **deps:** update dependency @types/koa\_\_router to v8.0.10 ([00f49f5](https://github.com/zcong1993/opentelemetry-instrumentation-egg/commit/00f49f574f820f04fd5bff5ad37eed4fb7593768))
+- **deps:** update dependency @types/koa\_\_router to v8.0.11 ([#34](https://github.com/zcong1993/opentelemetry-instrumentation-egg/issues/34)) ([f198f02](https://github.com/zcong1993/opentelemetry-instrumentation-egg/commit/f198f023ddad6d578f6211ce2408cc02657fd11c))
+- **deps:** update dependency @types/koa\_\_router to v8.0.9 ([a03eaa8](https://github.com/zcong1993/opentelemetry-instrumentation-egg/commit/a03eaa88909224b1eb068a880ff2c729eac2dc42))
+- **deps:** update opentelemetry-js monorepo to ^0.27.0 ([e1d26c0](https://github.com/zcong1993/opentelemetry-instrumentation-egg/commit/e1d26c06ffe1133a6b9bd164626d2341fc9690c6))
+- **deps:** update opentelemetry-js monorepo to ^0.28.0 ([957e171](https://github.com/zcong1993/opentelemetry-instrumentation-egg/commit/957e1710005e3f84a18fa18ef8310c8539158141))
+
 ## [0.3.4](https://github.com/zcong1993/opentelemetry-instrumentation-egg/compare/v0.3.3...v0.3.4) (2021-10-19)
 
 ### Bug Fixes
