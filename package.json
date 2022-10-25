@@ -32,7 +32,7 @@
     "@opentelemetry/sdk-trace-base": "^1.2.0",
     "@opentelemetry/sdk-trace-node": "^1.2.0",
     "@types/jest": "^29.0.0",
-    "@types/node": "^16.11.33",
+    "@types/node": "^18.0.0",
     "@typescript-eslint/eslint-plugin": "^5.22.0",
     "@typescript-eslint/parser": "^5.22.0",
     "@zcong/js-release": "^0.2.5",
