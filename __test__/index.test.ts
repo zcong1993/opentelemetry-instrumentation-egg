@@ -20,10 +20,11 @@ const setup = async () => {
     instrumentations: [new EggInstrumentation()],
   })
 
-  await sdk.start()
+  sdk.start()
   await sdk.shutdown()
 }
 
 it('should work well', async () => {
   await setup()
+  expect(true).toBeTruthy()
 })
