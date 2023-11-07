@@ -55,7 +55,7 @@
     "@opentelemetry/instrumentation": "^0.36.0",
     "@opentelemetry/semantic-conventions": "^1.10.0",
     "@types/koa": "2.13.6",
-    "@types/koa__router": "12.0.0"
+    "@types/koa__router": "12.0.4"
   },
   "jest": {
     "preset": "ts-jest"
